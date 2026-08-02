@@ -2,7 +2,7 @@
 
 I build software, automation and AI systems **in production** — and run the companies that use them every day.
 
-🌐 **[kamiljan.com](https://kamiljan.com)** &nbsp;·&nbsp; ✉️ hello@kamiljan.com
+🌐 **[kamiljan.com](https://kamiljan.com)** &nbsp;·&nbsp; ✉️ hello@kamiljan.com &nbsp;·&nbsp; 📖 daily code-reading log: [code-reading-quest](https://github.com/mountainallservice/code-reading-quest)
 
 > ℹ️ Most repositories here are **private** — they hold client and proprietary code (ERPs, CRMs, pricing engines, automations).
 > The list below is the real, **live** work. Click through and see it running.
