@@ -29,7 +29,7 @@ I build software, automation and AI systems **in production** — and run the co
 
 ```mermaid
 flowchart LR
-    K(("<b>Kamil Jan</b><br>Reykjavík"))
+    K(("Kamil Jan · Reykjavík"))
 
     K --- OPS(["operations platforms"])
     K --- MKT(["marketplaces & logistics"])
@@ -37,28 +37,28 @@ flowchart LR
     K --- SVC(["service brands"])
     K --- INF(["own systems"])
 
-    OPS --- MAS["MAS Group<br>masgroup.is"]
-    OPS --- EKO["Ekomoc CRM<br>field-sales, energy audits"]
-    OPS --- WAR["MAS Warsztat<br>garage management"]
-    OPS --- KAL["Maskalkulator<br>print pricing engine"]
+    OPS --- MAS["MAS Group · masgroup.is"]
+    OPS --- EKO["Ekomoc CRM · field-sales, energy audits"]
+    OPS --- WAR["MAS Warsztat · garage management"]
+    OPS --- KAL["Maskalkulator · print pricing engine"]
 
-    MKT --- FLY["Flyt<br>flyt.is"]
-    MKT --- ISL["Island Collective<br>group shipments"]
+    MKT --- FLY["Flyt · flyt.is"]
+    MKT --- ISL["Island Collective · group shipments"]
 
-    MOB --- MC["Mountain Car<br>mountaincar.is"]
-    MOB --- REN["Rental Manager<br>internal fleet ops"]
-    MOB --- JI["Journey Iceland<br>tours"]
+    MOB --- MC["Mountain Car · mountaincar.is"]
+    MOB --- REN["Rental Manager · internal fleet ops"]
+    MOB --- JI["Journey Iceland · tours"]
 
-    SVC --- QF["QuickFix<br>quickfix.is"]
-    SVC --- RKW["Reykjawwwik<br>reykjawwwik.is"]
-    SVC --- HH["HomeHug<br>home services"]
-    SVC --- MOV["Is Move Magic<br>moving services"]
-    SVC --- SPA["Spirit Way Bloom<br>wellness platform"]
+    SVC --- QF["QuickFix · quickfix.is"]
+    SVC --- RKW["Reykjawwwik · reykjawwwik.is"]
+    SVC --- HH["HomeHug · home services"]
+    SVC --- MOV["Is Move Magic · moving services"]
+    SVC --- SPA["Spirit Way Bloom · wellness platform"]
 
-    INF --- SITE["kamiljan.com<br>portfolio"]
-    INF --- CRQ["code-reading-quest<br>daily practice log"]
-    INF --- HER["Hermes<br>agent runtime"]
-    INF --- UP["Uptime monitor<br>GitHub Actions"]
+    INF --- SITE["kamiljan.com · portfolio"]
+    INF --- CRQ["code-reading-quest · daily practice log"]
+    INF --- HER["Hermes · agent runtime"]
+    INF --- UP["Uptime monitor · GitHub Actions"]
 
     click MAS "https://masgroup.is" _blank
     click FLY "https://flyt.is" _blank
