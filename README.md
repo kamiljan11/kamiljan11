@@ -21,7 +21,7 @@ I build software, automation and AI systems **in production** — and run the co
 🌐 **[kamiljan.com](https://kamiljan.com)** &nbsp;·&nbsp; ✉️ hello@kamiljan.com &nbsp;·&nbsp; 📖 daily code-reading log: [code-reading-quest](https://github.com/kamiljan11/code-reading-quest)
 
 > ℹ️ Most repositories here are **private** — they hold client and proprietary code (ERPs, CRMs, pricing engines, automations).
-> Everything below is real, **live** work. Click any node and see it running.
+> Everything below is real, **live** work. Green nodes are live sites — click them.
 
 ---
 
@@ -29,20 +29,54 @@ I build software, automation and AI systems **in production** — and run the co
 
 ```mermaid
 flowchart LR
-    K(("Kamil Jan<br>Reykjavík"))
+    K(("<b>Kamil Jan</b><br>Reykjavík"))
 
-    K --> MAS["MAS Group · masgroup.is"]
-    K --> FLY["Flyt · flyt.is"]
-    K --> MC["Mountain Car · mountaincar.is"]
-    K --> QF["QuickFix · quickfix.is"]
-    K --> RKW["Reykjawwwik · reykjawwwik.is"]
-    K --> EKO["Ekomoc CRM · private"]
+    K --- OPS(["operations platforms"])
+    K --- MKT(["marketplaces & logistics"])
+    K --- MOB(["travel & mobility"])
+    K --- SVC(["service brands"])
+    K --- INF(["own systems"])
+
+    OPS --- MAS["MAS Group<br>masgroup.is"]
+    OPS --- EKO["Ekomoc CRM<br>field-sales, energy audits"]
+    OPS --- WAR["MAS Warsztat<br>garage management"]
+    OPS --- KAL["Maskalkulator<br>print pricing engine"]
+
+    MKT --- FLY["Flyt<br>flyt.is"]
+    MKT --- ISL["Island Collective<br>group shipments"]
+
+    MOB --- MC["Mountain Car<br>mountaincar.is"]
+    MOB --- REN["Rental Manager<br>internal fleet ops"]
+    MOB --- JI["Journey Iceland<br>tours"]
+
+    SVC --- QF["QuickFix<br>quickfix.is"]
+    SVC --- RKW["Reykjawwwik<br>reykjawwwik.is"]
+    SVC --- HH["HomeHug<br>home services"]
+    SVC --- MOV["Is Move Magic<br>moving services"]
+    SVC --- SPA["Spirit Way Bloom<br>wellness platform"]
+
+    INF --- SITE["kamiljan.com<br>portfolio"]
+    INF --- CRQ["code-reading-quest<br>daily practice log"]
+    INF --- HER["Hermes<br>agent runtime"]
+    INF --- UP["Uptime monitor<br>GitHub Actions"]
 
     click MAS "https://masgroup.is" _blank
     click FLY "https://flyt.is" _blank
     click MC "https://mountaincar.is" _blank
     click QF "https://quickfix.is" _blank
     click RKW "https://reykjawwwik.is" _blank
+    click SITE "https://kamiljan.com" _blank
+    click CRQ "https://github.com/kamiljan11/code-reading-quest" _blank
+
+    classDef hub fill:#161b22,stroke:#6e7681,stroke-width:1px,color:#e6edf3
+    classDef live fill:#0d2b1f,stroke:#3fb950,stroke-width:1.5px,color:#e6edf3
+    classDef work fill:#12203a,stroke:#58a6ff,stroke-width:1px,color:#e6edf3
+    classDef own fill:#241a33,stroke:#a78bfa,stroke-width:1px,color:#e6edf3
+
+    class OPS,MKT,MOB,SVC,INF hub
+    class MAS,FLY,MC,QF,RKW,SITE live
+    class EKO,WAR,KAL,ISL,REN,JI,HH,MOV,SPA work
+    class CRQ,HER,UP own
 ```
 
 **MAS Group** — B2B operations platform across auto parts, print and logistics. 13-stage quote-to-order pipeline, per-line pricing calculators, commission management, role-based access.
