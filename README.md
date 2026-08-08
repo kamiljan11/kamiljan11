@@ -21,40 +21,41 @@ I build software, automation and AI systems **in production** — and run the co
 🌐 **[kamiljan.com](https://kamiljan.com)** &nbsp;·&nbsp; ✉️ hello@kamiljan.com &nbsp;·&nbsp; 📖 daily code-reading log: [code-reading-quest](https://github.com/kamiljan11/code-reading-quest)
 
 > ℹ️ Most repositories here are **private** — they hold client and proprietary code (ERPs, CRMs, pricing engines, automations).
-> Everything below is real, **live** work. Click through and see it running.
+> Everything below is real, **live** work. Click any node and see it running.
 
 ---
 
 ## 🚀 Live projects
 
-```
-┌─ live systems ───────────────────────────────────────────────────────┐
-│                                                                      │
-│  ● masgroup.is     b2b ops · auto parts · print · logistics          │
-│      13-stage quote-to-order pipeline, per-line pricing              │
-│      calculators, commission mgmt, role-based access                 │
-│                                                                      │
-│  ● flyt.is         freight & group-import marketplace                │
-│      pooled container campaigns with deposit/refund logic,           │
-│      on-demand import quotes, live revenue dashboard                 │
-│                                                                      │
-│  ● mountaincar.is  car rental + garage · kef airport                 │
-│      fleet, booking and quote flow · next.js + supabase              │
-│                                                                      │
-│  ● quickfix.is     handyman · reykjavík · en/pl/is                   │
-│      multilingual marketing site + lead funnel, shipped in 72h       │
-│                                                                      │
-│  ● reykjawwwik.is  web-agency saas · 10 markets                      │
-│      geo-detected pricing engine, lead-to-contract crm,              │
-│      pdf contract generation with per-country vat                    │
-│                                                                      │
-│  ○ ekomoc crm      field-sales crm · energy audits   [private]       │
-│      9-stage pipeline, rbac, docx/pdf contract generation            │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    K(("Kamil Jan<br>Reykjavík"))
+
+    K --> MAS["MAS Group · masgroup.is"]
+    K --> FLY["Flyt · flyt.is"]
+    K --> MC["Mountain Car · mountaincar.is"]
+    K --> QF["QuickFix · quickfix.is"]
+    K --> RKW["Reykjawwwik · reykjawwwik.is"]
+    K --> EKO["Ekomoc CRM · private"]
+
+    click MAS "https://masgroup.is" _blank
+    click FLY "https://flyt.is" _blank
+    click MC "https://mountaincar.is" _blank
+    click QF "https://quickfix.is" _blank
+    click RKW "https://reykjawwwik.is" _blank
 ```
 
-**Open them:** [masgroup.is](https://masgroup.is) · [flyt.is](https://flyt.is) · [mountaincar.is](https://mountaincar.is) · [quickfix.is](https://quickfix.is) · [reykjawwwik.is](https://reykjawwwik.is)
+**MAS Group** — B2B operations platform across auto parts, print and logistics. 13-stage quote-to-order pipeline, per-line pricing calculators, commission management, role-based access.
+
+**Flyt** — group-order and import marketplace for Iceland. Pooled container campaigns with deposit/refund logic, on-demand import quotes, admin dashboard with live revenue metrics.
+
+**Mountain Car** — car rental and garage near KEF airport. Fleet, booking and quote flow on Next.js + Supabase.
+
+**QuickFix** — handyman brand in Reykjavík. Multilingual site (EN/PL/IS) plus lead funnel, shipped in 72 hours.
+
+**Reykjawwwik** — web-agency SaaS. Multi-market pricing engine across 10 countries with geo-detection, lead-to-contract CRM, PDF contracts with per-country VAT.
+
+**Ekomoc CRM** — field-sales CRM for energy-audit teams. 9-stage pipeline, role-based access, automated DOCX/PDF contract generation, leaderboard. _(private)_
 
 ---
 
