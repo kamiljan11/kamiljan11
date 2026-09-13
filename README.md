@@ -1,4 +1,7 @@
-# Kamil Jan
+<p align="center">
+  <img src="assets/banner.svg" width="720"
+       alt="Kamil Jan - AI Automation &amp; Implementation Engineer, Builder &amp; Operator">
+</p>
 
 Builder and operator in Reykjavík. I run two small Icelandic companies, MAS Group (auto parts,
 print, logistics) and Reykjawwwik (a web agency), and I write the software both of them run on.
